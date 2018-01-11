@@ -18,13 +18,14 @@ Lets talk about:
 cors
 browser router vs hashrouter
 props used more
+proxy
 
 
 routes
     client side
         #/ (Home)
         #/private
-        #/login
+
     back-end
         /user-data
         /login
@@ -56,7 +57,7 @@ schema (database shape)
 stretch goals
 * deposit
 * debit
-
+* browser router
 
 
 
