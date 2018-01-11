@@ -19,7 +19,7 @@ cors
 browser router vs hashrouter
 props used more
 proxy
-
+combineReducers
 
 routes
     client side
@@ -37,7 +37,6 @@ routes
 components
 * Home / Login
 * AccountInfo
-* Logout
 * Button
 * List?
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Route } from 'react-router-dom';
 import Home from './Home';
@@ -9,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Route path="/" exact component={Home} />
+        <Route path="/(access_token.*)?"/* this is saying exactly / plus access token... will go to the home component*/ exact component={Home} />
         <Route path="/private" component={AccountInfo} />
       </div>
     );
