@@ -11,6 +11,7 @@ import store from './store';
 ReactDOM.render(<Provider store={store}>
     <HashRouter>
         <App />
+        {/* <Route component={App} */}
     </HashRouter>
 </Provider>, document.getElementById('root'));
 // registerServiceWorker();
